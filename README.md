@@ -22,9 +22,6 @@ import pandas as pd
 from scipy import stats
 
 df=pd.read_csv("/content/bhp.csv")
-[Expt2-Datascience.pdf](https://github.com/PavithraBarathi/Ex02-Outlier/files/11068359/Expt2-Datascience.pdf)
-[Expt2-Datascience.pdf](https://github.com/PavithraBarathi/Ex02-Outlier/files/11068362/Expt2-Datascience.pdf)
-[Expt2-Datascience.pdf](https://github.com/PavithraBarathi/Ex02-Outlier/files/11068363/Expt2-Datascience.pdf)
 
 df.head(10)
 
@@ -71,3 +68,6 @@ IQR=q3-q1
 df_new=df[((df['height']<q1-1.5*IQR)|(df['height']>q3+1.5*IQR))]
 
 print(df_new)
+
+#Output
+[Expt2-Datascience.pdf](https://github.com/PavithraBarathi/Ex02-Outlier/files/11068364/Expt2-Datascience.pdf)
